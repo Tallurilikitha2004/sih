@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://kit.fontawesome.com/53b89dd49e.js" crossorigin="anonymous"></script>
+    <style>
+        /* Reset default margin and padding for all elements */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* Set a background color and text color for the body */
+        
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        /* Style the container */
+        
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 100%;
+            max-width: 400px;
+        }
+        /* Style the form container */
+        
+        .form-container {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* Style the form title */
+        
+        .form-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-left: 70px;
+        }
+        /* Style the input field */
+        
+        .form-container input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        /* Style of option-container */
+        
+        .options-container {
+            display: flex;
+            margin-left: 290px;
+            align-items: center;
+            margin-bottom: 20px;
+            /* Add margin for spacing */
+        }
+        
+        .options {
+            display: flex;
+            top: 0;
+        }
+        
+        .option {
+            margin-right: 10px;
+            /* Add spacing between options */
+            cursor: pointer;
+            color: #0074d9;
+            font-weight: bold;
+        }
+        
+        .option:hover {
+            text-decoration: underline;
+        }
+        /* Style the password container */
+        
+        .password {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .patimg {
+            border: 2px solid #eeeeee;
+        }
+        
+        .patimg:hover {
+            border: 2px solid black;
+        }
+        
+        .clicked {
+            border: 5px solid #a03333;
+        }
+        /* Style the password image div */
+        
+        .passimg {
+            width: calc(33.33% - 10px);
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        /* Style the password image */
+        
+        .patimg {
+            width: 100%;
+            max-width: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        /* Add hover effect to password image div */
+        
+        .passimg:hover {
+            transform: scale(1.1);
+        }
+        /* Add media query for responsiveness */
+        
+        @media (max-width: 768px) {
+            .container {
+                max-width: 90%;
+            }
+            .form-container {
+                padding: 20px;
+            }
+        }
+        
+        .ok {
+            text-align: center;
+            /* Center-align the content */
+        }
+        
+        #signUp {
+            background-color: #0074d9;
+            /* Set the background color */
+            color: #ffffff;
+            /* Set the text color */
+            padding: 10px 20px;
+            /* Add padding to the button */
+            border: none;
+            /* Remove the button border */
+            border-radius: 5px;
+            /* Add rounded corners to the button */
+            cursor: pointer;
+            /* Change the cursor to a pointer on hover */
+            font-size: 18px;
+            /* Set the font size */
+        }
+        
+        #signUp:hover {
+            background-color: #0056b3;
+            /* Change the background color on hover */
+        }
+        #sign1 {
+            background-color: #0074d9;
+            /* Set the background color */
+            color: #ffffff;
+            /* Set the text color */
+            padding: 10px 20px;
+            /* Add padding to the button */
+            border: none;
+            /* Remove the button border */
+            border-radius: 5px;
+            /* Add rounded corners to the button */
+            cursor: pointer;
+            /* Change the cursor to a pointer on hover */
+            font-size: 18px;
+            /* Set the font size */
+        }
+        
+        #sign1:hover {
+            background-color: #0056b3;
+            /* Change the background color on hover */
+        }
+    </style>
+</head>
+<!-- email method -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init("epVHGFQIo-D_O1Zqw");
+    })();
+</script>
+
+<body>
+    <div class="container" id="container">
+
+        <div class="form-container sign-in-container">
+
+            <form action="#">
+
+                <h1 STYLE="text-align: center; margin-right:70px"> LOGIN</h1>
+
+
+                <!-- <input type="password" autocomplete="current-password" required placeholder="Password" /> -->
+                <div class="password">
+                    <div class="passimg" onclick="inimg(this)" id="s01" style="width:60px;height:45px;"><img src="1.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s02" style="width:60px;height:45px;"><img src="2.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s03" style="width:60px;height:45px"><img src="3.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s04" style="width:60px;height: 45px;"><img src="4.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s05" style="width:60px;height:45px;"><img src="5.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s06" style="width:60px;height:45px;"><img src="6.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s07" style="width:60px;height:45px;"><img src="7.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s08" style="width:60px;height:45px;"><img src="8.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s09" style="width:60px;height:45px;"><img src="9.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s10" style="width:60px;height:45px;"><img src="10.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s11" style="width:60px;height:45px;"><img src="11.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s12" style="width:60px;height:45px;"><img src="12.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s13" style="width:60px;height:45px;"><img src="13.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s14" style="width:60px;height:45px;"><img src="14.jpeg" alt="" class="patimg"></div>
+                    <div class="passimg" onclick="inimg(this)" id="s15" style="width:60px;height:45px;"><img src="15.jpeg" alt="" class="patimg"></div>
+                </div>
+                <div class="ok">
+                    <button class="ghost" id="signUp" type="button"><A href="judge.html" style="text-decoration: none; color:white"> RESET</A></button>
+                    <button class="ghost" id="sign1" type="button">LOGIN</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

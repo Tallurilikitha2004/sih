@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from coderthemes.com/adminto/layouts/contacts-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Dec 2023 05:19:57 GMT -->
+<head>
+        <meta charset="utf-8" />
+        <title>Team Members</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="#">
+
+        <!-- App css -->
+
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+        <!-- icons -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <!-- body start -->
+    <body class="loading" data-layout-color="light"  data-layout-mode="default" data-layout-size="fluid" data-topbar-color="light" data-leftbar-position="fixed" data-leftbar-color="light" data-leftbar-size='default' data-sidebar-user='true'>
+
+        <!-- Begin page -->
+        <div id="wrapper">
+
+            <!-- Topbar Start -->
+            <div class="navbar-custom">
+                <ul class="list-unstyled topnav-menu float-end mb-0">
+
+                    <li class="d-none d-lg-block">
+                        <form class="app-search">
+                            <div class="app-search-box">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search..." id="top-search">
+                                    <button class="btn input-group-text" type="submit">
+                                        <i class="fe-search"></i>
+                                    </button>
+                                </div>
+                                <div class="dropdown-menu dropdown-lg" id="search-dropdown">
+                                    <!-- item-->
+                                    <div class="dropdown-header noti-title">
+                                        <h5 class="text-overflow mb-2">Found 22 results</h5>
+                                    </div>
+        
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="fe-home me-1"></i>
+                                        <span>Analytics Report</span>
+                                    </a>
+        
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="fe-aperture me-1"></i>
+                                        <span>How can I help you?</span>
+                                    </a>
+                        
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="fe-settings me-1"></i>
+                                        <span>User profile settings</span>
+                                    </a>
+
+                                    <!-- item-->
+                                    <div class="dropdown-header noti-title">
+                                        <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
+                                    </div>
+
+                                    <div class="notification-list">
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <div class="d-flex align-items-start">
+                                                <img class="d-flex me-2 rounded-circle" src="assets/images/users/user-2.jpg" alt="Generic placeholder image" height="32">
+                                                <div class="w-100">
+                                                    <h5 class="m-0 font-14">Erwin E. Brown</h5>
+                                                    <span class="font-12 mb-0">UI Designer</span>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <div class="d-flex align-items-start">
+                                                <img class="d-flex me-2 rounded-circle" src="assets/images/users/user-5.jpg" alt="Generic placeholder image" height="32">
+                                                <div class="w-100">
+                                                    <h5 class="m-0 font-14">Jacob Deo</h5>
+                                                    <span class="font-12 mb-0">Developer</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+        
+                                </div> 
+                            </div>
+                        </form>
+                    </li>
+
+                    <li class="dropdown d-inline-block d-lg-none">
+                        <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <i class="fe-search noti-icon"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-lg dropdown-menu-end p-0">
+                            <form class="p-3">
+                                <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
+                            </form>
+                        </div>
+                    </li>
+        
+                    
+                    <li class="dropdown notification-list topbar-dropdown">
+                        <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="profile.jpg" alt="user-image" class="rounded-circle">
+                            <span class="pro-user-name ms-1">
+                                Pradeep kumar<i class="mdi mdi-chevron-down"></i> 
+                            </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end profile-dropdown ">
+                            <!-- item-->
+                            <div class="dropdown-header noti-title">
+                                <h6 class="text-overflow m-0">Welcome !</h6>
+                            </div>
+
+                            <!-- item-->
+                            <a href="contacts-profile.html" class="dropdown-item notify-item">
+                                <i class="fe-user"></i>
+                                <span>My Account</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="auth-lock-screen.html" class="dropdown-item notify-item">
+                                <i class="fe-lock"></i>
+                                <span>Lock Screen</span>
+                            </a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <!-- item-->
+                            <a href="auth-logout.html" class="dropdown-item notify-item">
+                                <i class="fe-log-out"></i>
+                                <span>Logout</span>
+                            </a>
+
+                        </div>
+                    </li>
+
+                    <li class="dropdown notification-list">
+                        <a href="javascript:void(0);" class="nav-link right-bar-toggle waves-effect waves-light">
+                            <i class="fe-settings noti-icon"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- LOGO -->
+                <div class="logo-box">
+                    <a href="index.html" class="logo logo-light text-center">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="assets/images/logo-light.png" alt="" height="16">
+                        </span>
+                    </a>
+                    <a href="index.html" class="logo logo-dark text-center">
+                        <span class="logo-sm">
+                            <img src="assets/images/logo-sm.png" alt="" height="22">
+                        </span>
+                        <span class="logo-lg">
+                            <img src="#" alt="" height="16">
+                        </span>
+                    </a>
+                </div>
+
+                <ul class="list-unstyled topnav-menu topnav-menu-left mb-0">
+                    <li>
+                        <button class="button-menu-mobile disable-btn waves-effect">
+                            <i class="fe-menu"></i>
+                        </button>
+                    </li>
+
+                    <li>
+                        <h4 class="page-title-main">Team Members</h4>
+                    </li>
+        
+                </ul>
+
+                <div class="clearfix"></div> 
+           
+        </div>
+        <!-- end Topbar -->
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="left-side-menu">
+
+            <div class="h-100" data-simplebar>
+
+                 <!-- User box -->
+                <div class="user-box text-center">
+
+                    <img src="profile.jpg" alt="user-img" title="Mat Helme" class="rounded-circle img-thumbnail avatar-md">
+                        <div class="dropdown">
+                            <a href="#" class="user-name dropdown-toggle h5 mt-2 mb-1 d-block" data-bs-toggle="dropdown"  aria-expanded="false">Pradeep kumar</a>
+                            <div class="dropdown-menu user-pro-dropdown">
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="fe-user me-1"></i>
+                                    <span>My Account</span>
+                                </a>
+    
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="fe-settings me-1"></i>
+                                    <span>Settings</span>
+                                </a>
+    
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="fe-lock me-1"></i>
+                                    <span>Lock Screen</span>
+                                </a>
+    
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="fe-log-out me-1"></i>
+                                    <span>Logout</span>
+                                </a>
+    
+                            </div>
+                        </div>
+
+                    <p class="text-muted left-user-info">Lawyer</p>
+
+                    <ul class="list-inline">
+                        
+                    </ul>
+                </div>
+
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+
+                    <ul id="side-menu">
+
+                        
+            
+                        <li>
+                            <a href="dark.html">
+                                <img src="dash.png" style="height:30px; width:30px">
+                                <span> Dashboard </span>
+                            </a>
+                        </li>
+
+                        
+
+                        <li>
+                            <a href="apps-calendar.html">
+                                <img src="calander.png" style="height:20px; width:20px">
+                                <span> Calendar </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="task-kanban-board.html">
+                                <img src="calander.png" style="height:20px; width:20px">
+                                <span> Tasks </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contacts-list.html">
+                                <img src="team.jpg" style="height: 19px; width:19px">
+                                <span> Team Members </span>
+                            </a>
+                        <!--      <div class="collapse" id="contacts">
+                                <ul class="nav-second-level">
+                                    <li>
+                                        <a href="contacts-list.html">Teams Members</a>
+                                    </li>
+                                  <li>
+                                        <a href="contacts-profile.html">Profile</a>
+                                    </li> 
+                                </ul>
+                            </div> -->
+                        </li>
+
+                        <li>
+                            <a href="client-list.html">
+                                <img src="client.jpg" style="height: 19px; width:19px">
+                                <span> client </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="case.html">
+                                <img src="case.jpg" style="height: 19px; width:19px">
+                                <span> Case </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="file:///C:/Users/prade/Desktop/savage/vid_con/mumble2/lobby.html" target="_blank">
+                                <img src="vedio.jpg" style="height: 19px; width:19px">
+                                <span> Vedio call </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="form.html" >
+                                <img src="case.jpg" style="height: 19px; width:19px">
+                                <span> Form </span>
+                            </a>
+                        </li>
+                        </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- End Sidebar -->
+
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="row justify-content-between">
+                                            <div class="col-md-4">
+                                                <div class="mt-3 mt-md-0">
+                                                    <button type="button" class="btn btn-success waves-effect waves-light" data-bs-toggle="modal" data-bs-target="#custom-modal"><i class="mdi mdi-plus-circle me-1"></i> Add Team Members</button>
+                                                </div>
+                                            </div><!-- end col-->
+                                            <div class="col-md-8">
+                                                <form class="d-flex flex-wrap align-items-center justify-content-sm-end">
+                                                    <label for="status-select" class="me-2">Sort By</label>
+                                                    <div class="me-sm-2">
+                                                        <select class="form-select my-1 my-md-0" id="status-select">
+                                                            <option selected="">All</option>
+                                                            <option value="1">Name</option>
+                                                            <option value="2">Post</option>
+                                                            <option value="3">Followers</option>
+                                                            <option value="4">Followings</option>
+                                                        </select>
+                                                    </div>
+                                                    <label for="inputPassword2" class="visually-hidden">Search</label>
+                                                    <div>
+                                                        <input type="search" class="form-control my-1 my-md-0" id="inputPassword2" placeholder="Search...">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div> <!-- end row -->
+                                    </div>
+                                </div> <!-- end card -->
+                            </div><!-- end col-->
+                        </div>
+                        <!-- end row -->        
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <div class="card">
+                                    <div class="text-center card-body">
+                                        <div class="dropdown float-end">
+                                            <a href="#" class="dropdown-toggle arrow-none card-drop"  data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-dots-vertical"></i>
+                                            </a>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Another action</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Something else</a>
+                                                <!-- item-->
+                                                <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <img src="https://static.javatpoint.com/top10-technologies/images/top-10-lawyers-in-india1.png" class="rounded-circle avatar-xl img-thumbnail mb-2" alt="profile-image">
+    
+                                            <p class="text-muted font-13 mb-3">
+                                                Notable for handling high-profile cases.
+                                                Former Solicitor General of India.                                            </p>
+    
+                                            <div class="text-start">
+                                                <p class="text-muted font-13"><strong>Full Name :</strong> <span class="ms-2">Harish Salve</span></p>
+    
+                                                <p class="text-muted font-13"><strong>Mobile :</strong><span class="ms-2">+91 8639554353</span></p>
+    
+                                                <p class="text-muted font-13"><strong>Email :</strong> <span class="ms-2">harishsalve@gmail.com</span></p>
+    
+                                                <p class="text-muted font-13"><strong>Location :</strong> <span class="ms-2">kolkata</span></p>
+                                            </div>
+    
+                                            <button type="button" class="btn btn-primary rounded-pill waves-effect waves-light">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                            </div> <!-- end col -->
+
+                            <div class="col-xl-4">
+                                <div class="card">
+                                <div class="text-center card-body">
+                                    <div class="dropdown float-end">
+                                        <a href="#" class="dropdown-toggle arrow-none card-drop"  data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="mdi mdi-dots-vertical"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end">
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="https://img.theweek.in/content/dam/week/magazine/the-week/specials/images/25-Aseem-Chawla.jpg" class="rounded-circle avatar-xl img-thumbnail mb-2" alt="profile-image">
+
+                                        <p class="text-muted font-13 mb-3">
+                                            Renowned criminal lawyer.
+                                            Former Union Law Minister.                                        </p>
+
+                                        <div class="text-start">
+                                            <p class="text-muted font-13"><strong>Full Name :</strong> <span class="ms-2">Ram Jethmalan</span></p>
+
+                                            <p class="text-muted font-13"><strong>Mobile :</strong><span class="ms-2">+91 7671816515</span></p>
+
+                                            <p class="text-muted font-13"><strong>Email :</strong> <span class="ms-2">ramjethmalan@gmail.com</span></p>
+
+                                            <p class="text-muted font-13"><strong>Location :</strong> <span class="ms-2">Andhra Pradesh</span></p>
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary rounded-pill waves-effect waves-light">Send Message</button>
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div> <!-- end col -->
+
+                            <div class="col-xl-4">
+                                <div class="card">
+                                <div class="text-center card-body">
+                                    <div class="dropdown float-end">
+                                        <a href="#" class="dropdown-toggle arrow-none card-drop"  data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="mdi mdi-dots-vertical"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end">
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="https://img.theweek.in/content/dam/week/magazine/the-week/specials/images/30-Shreyas-Jayasimha.jpg" class="rounded-circle avatar-xl img-thumbnail mb-2" alt="profile-image">
+
+                                        <p class="text-muted font-13 mb-3">
+                                            Senior advocate in the Supreme Court.
+                                            Former President of the Bar Association of India.                                        </p>
+
+                                        <div class="text-start">
+                                            <p class="text-muted font-13"><strong>Full Name :</strong> <span class="ms-2">Fali Sam Nariman Deo</span></p>
+
+                                            <p class="text-muted font-13"><strong>Mobile :</strong><span class="ms-2">+91 9835738922</span></p>
+
+                                            <p class="text-muted font-13"><strong>Email :</strong> <span class="ms-2">falisamariman@gmail.com</span></p>
+
+                                            <p class="text-muted font-13"><strong>Location :</strong> <span class="ms-2">Tamil Nadu</span></p>
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary rounded-pill waves-effect waves-light">Send Message</button>
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <div class="card">
+                                <div class="text-center card-body">
+                                    <div class="dropdown float-end">
+                                        <a href="#" class="dropdown-toggle arrow-none card-drop"  data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="mdi mdi-dots-vertical"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end">
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaDhamWyj_2G-icCy_z8DqPSg-GNwnCGBBTw&usqp=CAU" class="rounded-circle avatar-xl img-thumbnail mb-2" alt="profile-image">
+
+                                        <p class="text-muted font-13 mb-3">
+                                            Politician and senior advocate.
+                                            Former Union Minister of Law and Justice.                                        </p>
+
+                                        <div class="text-start">
+                                            <p class="text-muted font-13"><strong>Full Name :</strong> <span class="ms-2">Abhishek Manu Singhvi</span></p>
+
+                                            <p class="text-muted font-13"><strong>Mobile :</strong><span class="ms-2">+91 983573424</span></p>
+
+                                            <p class="text-muted font-13"><strong>Email :</strong> <span class="ms-2">abhishek@gmail.com</span></p>
+
+                                            <p class="text-muted font-13"><strong>Location :</strong> <span class="ms-2">Delhi</span></p>
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary rounded-pill waves-effect waves-light">Send Message</button>
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div> <!-- end col -->
+
+                            <div class="col-xl-4">
+                                <div class="card">
+                                <div class="text-center card-body">
+                                    <div class="dropdown float-end">
+                                        <a href="#" class="dropdown-toggle arrow-none card-drop"  data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="mdi mdi-dots-vertical"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end">
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="data:image/jpeg;base64,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" class="rounded-circle avatar-xl img-thumbnail mb-2" alt="profile-image">
+
+                                        <p class="text-muted font-13 mb-3">
+                                            Former Attorney General of India.
+                                            Represents clients in civil and constitutional matters.                                        </p>
+
+                                        <div class="text-start">
+                                            <p class="text-muted font-13"><strong>Full Name :</strong> <span class="ms-2">Mukul Rohatgi</span></p>
+
+                                            <p class="text-muted font-13"><strong>Mobile :</strong><span class="ms-2">+91 8974734343</span></p>
+
+                                            <p class="text-muted font-13"><strong>Email :</strong> <span class="ms-2">mukulohatgi@gmail.com</span></p>
+
+                                            <p class="text-muted font-13"><strong>Location :</strong> <span class="ms-2">Gujarat</span></p>
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary rounded-pill waves-effect waves-light">Send Message</button>
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div> <!-- end col -->
+
+                            <div class="col-xl-4">
+                                <div class="card">
+                                <div class="text-center card-body">
+                                    <div class="dropdown float-end">
+                                        <a href="#" class="dropdown-toggle arrow-none card-drop"  data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="mdi mdi-dots-vertical"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-end">
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Another action</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Something else</a>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item">Separated link</a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img src="data:image/jpeg;base64,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" class="rounded-circle avatar-xl img-thumbnail mb-2" alt="profile-image">
+
+                                        <p class="text-muted font-13 mb-3">
+                                            Former Finance Minister and senior advocate.
+Known for his contributions to legal and political spheres.                                      </p>
+
+                                        <div class="text-start">
+                                            <p class="text-muted font-13"><strong>Full Name :</strong> <span class="ms-2">Arun Jaitley</span></p>
+
+                                            <p class="text-muted font-13"><strong>Mobile :</strong><span class="ms-2">+91 547894489438</span></p>
+
+                                            <p class="text-muted font-13"><strong>Email :</strong> <span class="ms-2">arunjaitley@gmail.com</span></p>
+
+                                            <p class="text-muted font-13"><strong>Location :</strong> <span class="ms-2">Assam</span></p>
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary rounded-pill waves-effect waves-light">Send Message</button>
+                                    </div>
+
+                                </div>
+                                </div>
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->   
+                        
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <script>document.write(new Date().getFullYear())</script> &copy; created by <a href="#">VibeSentinals</a> 
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-end footer-links d-none d-sm-block">
+                                    <a href="javascript:void(0);">About Us</a>
+                                    <a href="javascript:void(0);">Help</a>
+                                    <a href="javascript:void(0);">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="custom-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-light">
+                        <h4 class="modal-title" id="myCenterModalLabel">Add Team Members</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter full name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Mobile Number</label>
+                                <input type="tel" class="form-control" id="company" placeholder="Enter mobile number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="company" placeholder="Enter address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Zip Code</label>
+                                <input type="text" class="form-control" id="company" placeholder="Enter zip code">
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">State</label>
+                                <input type="text" class="form-control" id="company" placeholder="Enter state">
+                            </div>
+                            <div class="mb-3">
+                                <label for="position" class="form-label">City</label>
+                                <input type="text" class="form-control" id="position" placeholder="Enter city name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Role</label>
+                                <input type="text" class="form-control" id="company" placeholder="Enter role">
+                            </div>
+                            
+                            
+                            
+        
+                                <button type="submit" class="btn btn-light waves-effect waves-light">Save</button>
+                                <button type="button" class="btn btn-danger waves-effect waves-light" data-bs-dismiss="modal">Cancel</button>
+                        </form>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+        <!-- Right Sidebar -->
+        <div class="right-bar">
+
+            <div data-simplebar class="h-100">
+
+                <div class="rightbar-title">
+                    <a href="javascript:void(0);" class="right-bar-toggle float-end">
+                        <i class="mdi mdi-close"></i>
+                    </a>
+                    <h4 class="font-16 m-0 text-white">Theme Customizer</h4>
+                </div>
+        
+                <!-- Tab panes -->
+                <div class="tab-content pt-0">  
+
+                    <div class="tab-pane active" id="settings-tab" role="tabpanel">
+
+                        <div class="p-3">
+                            <div class="alert alert-warning" role="alert">
+                                <strong>Customize </strong> the overall color scheme, Layout, etc.
+                            </div>
+
+                            <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Color Scheme</h6>
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="layout-color" value="light"
+                                    id="light-mode-check" checked />
+                                <label class="form-check-label" for="light-mode-check">Light Mode</label>
+                            </div>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="layout-color" value="dark"
+                                    id="dark-mode-check" />
+                                <label class="form-check-label" for="dark-mode-check">Dark Mode</label>
+                            </div>
+
+                            <!-- Width -->
+                            <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Width</h6>
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="layout-size" value="fluid" id="fluid" checked />
+                                <label class="form-check-label" for="fluid-check">Fluid</label>
+                            </div>
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="layout-size" value="boxed" id="boxed" />
+                                <label class="form-check-label" for="boxed-check">Boxed</label>
+                            </div>
+
+                            <!-- Menu positions -->
+                            <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Menus (Leftsidebar and Topbar) Positon</h6>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="leftbar-position" value="fixed" id="fixed-check"
+                                    checked />
+                                <label class="form-check-label" for="fixed-check">Fixed</label>
+                            </div>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="leftbar-position" value="scrollable"
+                                    id="scrollable-check" />
+                                <label class="form-check-label" for="scrollable-check">Scrollable</label>
+                            </div>
+
+                            <!-- Left Sidebar-->
+                            <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Left Sidebar Color</h6>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="leftbar-color" value="light" id="light" />
+                                <label class="form-check-label" for="light-check">Light</label>
+                            </div>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="leftbar-color" value="dark" id="dark" checked/>
+                                <label class="form-check-label" for="dark-check">Dark</label>
+                            </div>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="leftbar-color" value="brand" id="brand" />
+                                <label class="form-check-label" for="brand-check">Brand</label>
+                            </div>
+
+                            <div class="form-check form-switch mb-3">
+                                <input type="checkbox" class="form-check-input" name="leftbar-color" value="gradient" id="gradient" />
+                                <label class="form-check-label" for="gradient-check">Gradient</label>
+                            </div>
+
+                            <!-- size -->
+                            <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Left Sidebar Size</h6>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="leftbar-size" value="default"
+                                    id="default-size-check" checked />
+                                <label class="form-check-label" for="default-size-check">Default</label>
+                            </div>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="leftbar-size" value="condensed"
+                                    id="condensed-check" />
+                                <label class="form-check-label" for="condensed-check">Condensed <small>(Extra Small size)</small></label>
+                            </div>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="leftbar-size" value="compact"
+                                    id="compact-check" />
+                                <label class="form-check-label" for="compact-check">Compact <small>(Small size)</small></label>
+                            </div>
+
+                            <!-- User info -->
+                            <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Sidebar User Info</h6>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="sidebar-user" value="true" id="sidebaruser-check" />
+                                <label class="form-check-label" for="sidebaruser-check">Enable</label>
+                            </div>
+
+
+                            <!-- Topbar -->
+                            <h6 class="fw-medium font-14 mt-4 mb-2 pb-1">Topbar</h6>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="topbar-color" value="dark" id="darktopbar-check"
+                                    checked />
+                                <label class="form-check-label" for="darktopbar-check">Dark</label>
+                            </div>
+
+                            <div class="form-check form-switch mb-1">
+                                <input type="checkbox" class="form-check-input" name="topbar-color" value="light" id="lighttopbar-check" />
+                                <label class="form-check-label" for="lighttopbar-check">Light</label>
+                            </div>
+
+                            <div class="d-grid mt-4">
+                                <button class="btn btn-primary" id="resetBtn">Reset to Default</button>
+                                <a href="https://1.envato.market/admintoadmin" class="btn btn-danger mt-3" target="_blank"><i class="mdi mdi-basket me-1"></i> Purchase Now</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div> <!-- end slimscroll-menu-->
+        </div>
+        <!-- /Right-bar -->
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+        <!-- Vendor -->
+        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="assets/libs/node-waves/waves.min.js"></script>
+        <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+
+<!-- Mirrored from coderthemes.com/adminto/layouts/contacts-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Dec 2023 05:19:57 GMT -->
+</html>
